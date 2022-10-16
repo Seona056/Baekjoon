@@ -1,5 +1,5 @@
 # 가장 빠른 답을 보고 수정한 것
-# 68ms
+# 메모리: 30840 KB, 시간: 68 ms
 
 dice = sorted(list(map(int, input().split())))
 
@@ -13,7 +13,7 @@ else:
     
     
 # 원래 제출했던 코드
-# 72ms
+# 메모리: 30840 KB, 시간: 72 ms
 
 dice = [int(i) for i in input().split()]
 
