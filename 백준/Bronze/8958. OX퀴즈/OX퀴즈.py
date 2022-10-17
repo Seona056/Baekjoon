@@ -1,8 +1,10 @@
+import sys
+
 n = int(input())
 score = lambda x: sum([s for s in range(1, x+1)])
 
 for i in range(n):
-    OX = input()
+    OX = sys.stdin.readline()
     s, total = 0, 0
     
     for ox in OX:
