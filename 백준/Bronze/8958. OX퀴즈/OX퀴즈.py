@@ -1,21 +1,17 @@
 import sys
 
-n = int(input())
+n = int(sys.stdin.readline())
 score = lambda x: sum([s for s in range(1, x+1)])
 
 for i in range(n):
     OX = sys.stdin.readline()
-    s, total = 0, 0
+    s, total = 1, 0
     
     for ox in OX:
         if ox == 'O':
+            total += s
             s += 1
-        elif ox == 'X' and s > 0:
-            total += score(s)
-            s = 0
-        
-    if s > 0 :
-        total += score(s)
-        print(total)        
-    else:
-        print(total)
+        else:
+            s = 1
+            
+    print(total)
