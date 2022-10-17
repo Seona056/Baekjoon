@@ -4,11 +4,11 @@ def generator(num: int):
         sum_numbers += int(n)
     return num + sum_numbers
 
-self_num = []
+self_num = set()
 
 for i in range(1, 10001):
     new = generator(i)
-    self_num.append(new)
+    self_num.add(new)
     if i in self_num:
         pass
     else:
