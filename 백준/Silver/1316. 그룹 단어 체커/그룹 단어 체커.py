@@ -1,8 +1,10 @@
-n = int(input())
+import sys
+
+n = int(sys.stdin.readline())
 answer = 0
 
 for i in range(n):
-    sequence = input()
+    sequence = sys.stdin.readline()
     set_s = set(sequence)
     t = 0
 
