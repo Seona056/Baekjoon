@@ -9,7 +9,8 @@ for num in numbers:
         continue
     
     c = 0
-    for i in range(2, num):
+    m = int(num**0.5)   # 자연수 n의 최대 약수가 sqrt(n)이므로, 여기까지만 판별
+    for i in range(2, m+1):    
         if num % i == 0:
             c = 1
             break
