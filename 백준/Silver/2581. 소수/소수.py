@@ -5,7 +5,7 @@ m = int(input())
 n = int(input())
 
 numbers = list(_ for _ in range(m, n+1))
-decimal = []
+prime = []
 
 for num in numbers:
     if num == 1:
@@ -17,13 +17,13 @@ for num in numbers:
             c = 1
             break
     if c == 0:
-        decimal.append(num)
+        prime.append(num)
 
-if len(decimal) == 0:
+if len(prime) == 0:
     print(-1)
 else:
-    print(sum(decimal))
-    print(decimal[0])
+    print(sum(prime))
+    print(prime[0])
 
 
 # 두 번째 답
@@ -34,7 +34,7 @@ m = int(input())
 n = int(input())
 
 numbers = list(_ for _ in range(m, n+1))
-decimal = []
+prime = []
 
 for num in numbers:
     if num == 1:
@@ -47,10 +47,10 @@ for num in numbers:
             c = 1
             break
     if c == 0:
-        decimal.append(num)
+        prime.append(num)
 
-if len(decimal) == 0:
+if len(prime) == 0:
     print(-1)
 else:
-    print(sum(decimal))
-    print(decimal[0])
+    print(sum(prime))
+    print(prime[0])
