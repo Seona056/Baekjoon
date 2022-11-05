@@ -1,6 +1,8 @@
 # 첫 번째 답
-# 메모리: 43908 KB, 시간: 4236 ms
+# 메모리: 43908 KB, 시간: 312 ms
 
+import sys
+input = sys.stdin.readline
 coordinates = []
 
 for i in range(int(input())):
