@@ -1,3 +1,20 @@
+# 첫 번째 답
+# 메모리: 43908 KB, 시간: 4236 ms
+
+coordinates = []
+
+for i in range(int(input())):
+    x, y = map(int, input().split())
+    coordinates.append((x, y))
+
+coordinates.sort()
+for c in coordinates:
+    print(*c)
+
+
+# 두 번째 답
+# 메모리: 43332 KB, 시간: 184 ms
+
 import sys
 
 def sort_num(n):
