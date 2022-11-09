@@ -1,8 +1,9 @@
 def star(n: int):
     if n == 3:
         return ['***','* *', '***']
-    return [s*3 for s in star(n//3)]+[s+(len(s)*' ')+s for s in star(n//3)]+[s*3 for s in star(n//3)]
+    f = [s*3 for s in star(n//3)]   # first
+    s = [s+(len(s)*' ')+s for s in star(n//3)]   # second
+    return f+s+f
 
-import sys 
-n = int(sys.stdin.readline())
+n = int(input())
 print('\n'.join(star(n)))
