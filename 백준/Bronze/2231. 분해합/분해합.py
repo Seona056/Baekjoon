@@ -1,5 +1,5 @@
 n = int(input())
-m = 1
+m = n//2
 
 while m < n:
     decomposition = sum(map(int ,str(m))) + m
