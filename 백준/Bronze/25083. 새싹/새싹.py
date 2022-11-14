@@ -5,4 +5,4 @@ r`-_   ,'  ,/
       |
       |"""
 
-print('\n'.join(a.split('\n')))
+print(a)
