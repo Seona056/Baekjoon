@@ -12,7 +12,6 @@ color_count = []
 color_count = []
 
 for i in range(n-7):
-    
 	for j in range(m-7):
 		c_white, c_black = 0, 0
         
