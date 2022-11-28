@@ -25,6 +25,7 @@ dogam_pokemon = {p:i+1 for i, p in enumerate(pokemon[:int(m)])}
 for q in pokemon[int(m):]:
 	print(dogam_pokemon[q]) if q.isalpha() == True else print(dogam_idx[int(q)])
 
+	
 ----------------------------------------------------------
 # 마지막 답
 # 메모리: 60360 KB, 시간: 200 ms
