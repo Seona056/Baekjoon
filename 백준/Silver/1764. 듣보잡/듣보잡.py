@@ -1,10 +1,10 @@
 import sys
-import collections
 
 n, m, *people = open(0).read().split()
 
-a1 = int(n)+int(m) - len(set(people))
-print(a1)
+print(int(n)+int(m) - len(set(people)))
 
-no = sorted(collections.Counter(people).most_common(a1))
-print('\n'.join(no[i][0] for i in range(a1)))
+no_hear = set(people[:int(n)])
+no_see = set(people[int(n):])
+
+print('\n'.join(sorted(set.intersection(no_hear, no_see))))
