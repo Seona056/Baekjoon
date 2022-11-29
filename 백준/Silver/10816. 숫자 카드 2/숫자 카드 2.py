@@ -1,9 +1,9 @@
+import sys
 import collections
 
-sangun, card = open(0).read().split('\n')[1::2]
-
-sangun = [*map(int, sangun.split())]
-card = [*map(int, card.split())]
+stdin = sys.stdin.read().splitlines()
+sangun = [*map(int, stdin[1].split())]
+card = [*map(int, stdin[3].split())]
 
 b = collections.Counter(sangun)
 sangun = set(sangun)
