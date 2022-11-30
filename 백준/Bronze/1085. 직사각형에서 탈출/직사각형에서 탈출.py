@@ -1,2 +1,2 @@
-x, y, w, h = map(int, open(0).read().split())
-print(min(x, y, abs(w-x), abs(h-y)))
+x, y, w, h = map(int, input().split())
+print(min(x, y, w-x, h-y))    # (x, y)는 직사각형 안에 있으므로 abs를 하지 않아도 된다!
