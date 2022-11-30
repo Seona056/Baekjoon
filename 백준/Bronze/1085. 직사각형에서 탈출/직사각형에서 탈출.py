@@ -1,2 +1,3 @@
-x, y, w, h = map(int, input().split())
+import sys
+x, y, w, h = map(int, sys.stdin.readline().split())
 print(min(x, y, w-x, h-y))    # (x, y)는 직사각형 안에 있으므로 abs를 하지 않아도 된다!
