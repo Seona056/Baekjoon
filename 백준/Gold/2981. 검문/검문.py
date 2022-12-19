@@ -3,11 +3,11 @@ import math
 
 nums = sys.stdin.readlines()
 n = int(nums[0])
-nums = sorted(map(int, nums[1:]))[::-1]
+nums = sorted(map(int, nums[1:]))
 sub = []
 
 for i in range(n-1):
-    sub.append(nums[i] - nums[i+1])
+    sub.append(nums[i+1] - nums[i])
 
 gcd = math.gcd(*sub)    
 f = set()
