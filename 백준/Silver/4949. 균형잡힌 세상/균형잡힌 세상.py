@@ -9,9 +9,8 @@ for t in txt:
     
 	t = re.sub('[a-zA-Z0-9]', '', t)
 	t = ''.join(t.split())
-	
-	a = ['[]', '()']
-	while any(i in t for i in a):
+    
+	while any(i in t for i in ['[]', '()']):
 		if '()' in t:
 			t = t.replace('()', '')
 		if '[]' in t:
