@@ -37,7 +37,7 @@
 |17|[동적 계획법 1](https://www.acmicpc.net/step/16)|기초적인 동적 계획법 문제들을 풀어봅시다.||0/16|
 |18|[누적 합](https://www.acmicpc.net/step/48)|부분구간 안에 있는 수들의 합을 빠르게 구해 봅시다.||0/6|
 |19|[그리디 알고리즘](https://www.acmicpc.net/step/33)|특정 상황에서 성립하는 그리디 알고리즘을 배워 봅시다.||0/5|
-|20|[스택](https://www.acmicpc.net/step/11)|스택을 구현하고 사용해 봅시다.||0/5|
+|20|[스택](https://www.acmicpc.net/step/11)|스택을 구현하고 사용해 봅시다.|✔🆗|5/5|
 |21|[큐, 덱](https://www.acmicpc.net/step/12)|큐와 덱을 구현하고 사용해봅시다.||0/8|
 |22|[분할 정복](https://www.acmicpc.net/step/20)|재귀를 응용하는 알고리즘, 분할 정복을 익혀 봅시다.||0/9|
 |23|[이분 탐색](https://www.acmicpc.net/step/29)|이분 탐색 알고리즘을 배워 봅시다.||0/7|
