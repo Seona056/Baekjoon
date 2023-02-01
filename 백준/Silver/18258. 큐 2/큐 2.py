@@ -1,3 +1,8 @@
+# 최종 답
+# 메모리: 317692 KB, 시간: 1556 ms
+# 원래는 q = [] (일반 리스트), pop(0)을 사용 👉 시간 초과
+# import collectios로 deque을 사용한 것만으로도 시간 초과가 되지 않음
+
 import sys
 import collections
 
@@ -9,10 +14,10 @@ for c in command:
 	
 	if ' ' in c:
 		x = c.split()
-		q.append(x[1])
+		q.append(x[1])    # 👉 deque에서는 appendleft()도 제공되므로 참고
 	elif 'pop' == c:
 		if q:
-			print(q.popleft())
+			print(q.popleft())    # 👉 deque에서는 popleft(), pop() 모두 제공된다.
 		else:
 			print(-1)
 	elif 'size' == c:
