@@ -2,6 +2,7 @@
 # 메모리: 317692 KB, 시간: 1556 ms
 # 원래는 q = [] (일반 리스트), pop(0)을 사용 👉 시간 초과
 # import collectios로 deque을 사용한 것만으로도 시간 초과가 되지 않음
+# from collections import deque으로 임포트할 수 있다.
 
 import sys
 import collections
