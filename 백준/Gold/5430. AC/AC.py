@@ -3,7 +3,7 @@ from collections import deque
 input = sys.stdin.readline
 
 for i in range(int(input())):	
-	command = input().strip()
+	command = input().strip().replace('RR', '')
 	n = int(input())
 	arr = deque(input().strip()[1:-1].split(','))
 	r, b = 0, 0	# reverse, break
