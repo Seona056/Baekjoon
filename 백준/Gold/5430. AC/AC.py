@@ -1,3 +1,10 @@
+# 여러 시도만에 겨우 성공
+# 처음에 짠 코드가 거의 맞았으나, 마지막 디테일이 부족했음
+# 빈 arr도 join문으로 표기가 될 줄알고 그냥 뒀던 것이 계속 오답이 되었다.
+# 그리고 처음에 reverse를 하나하나 했더니, command와 n의 길이가 너무 길어서 시간초과가 떴다. (1 <= command <= 100,000 / 0 <= n <= 100,000)
+# break문으로 'error'를 출력하고 마친 것과, command를 정상적으로 실행하고 빈 arr가 되는 것의 구분이 필요했음!
+# ❗ 디테일이 중요 ❗
+
 import sys
 from collections import deque
 input = sys.stdin.readline
