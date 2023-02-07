@@ -38,7 +38,7 @@
 |18|[누적 합](https://www.acmicpc.net/step/48)|부분구간 안에 있는 수들의 합을 빠르게 구해 봅시다.||0/6|
 |19|[그리디 알고리즘](https://www.acmicpc.net/step/33)|특정 상황에서 성립하는 그리디 알고리즘을 배워 봅시다.||0/5|
 |20|[스택](https://www.acmicpc.net/step/11)|스택을 구현하고 사용해 봅시다.|✔🆗|5/5|
-|21|[큐, 덱](https://www.acmicpc.net/step/12)|큐와 덱을 구현하고 사용해봅시다.|✔⏸|3/7|
+|21|[큐, 덱](https://www.acmicpc.net/step/12)|큐와 덱을 구현하고 사용해봅시다.|✔🆗|7/7|
 |22|[분할 정복](https://www.acmicpc.net/step/20)|재귀를 응용하는 알고리즘, 분할 정복을 익혀 봅시다.||0/9|
 |23|[이분 탐색](https://www.acmicpc.net/step/29)|이분 탐색 알고리즘을 배워 봅시다.|✔⏸|1/7|
 |24|[우선순위 큐](https://www.acmicpc.net/step/13)|가장 작은/큰 원소를 뽑는 자료구조를 배워 봅시다.||0/4|
@@ -58,3 +58,8 @@
 |38|[위상 정렬](https://www.acmicpc.net/step/25)|간선에 방향이 있는 그래프의 정점을 나열해 역방향이 없게 만드는 알고리즘을 다뤄 봅시다.||0/3|
 |39|[최소 공통 조상](https://www.acmicpc.net/step/40)|트리에서 두 정점의 최소 공통 조상을 구하는 자료구조를 배워 봅시다.||0/5|
 |40|[강한 연결 요소](https://www.acmicpc.net/step/43)|Strongly connected component를 다뤄 봅시다.||0/8|
+|41|[세그먼트 트리](https://www.acmicpc.net/step/35)|구간 쿼리를 효율적으로 수행하는 자료구조를 배워 봅시다.||0/8|
+|42|[스위핑](https://www.acmicpc.net/step/39)|스위핑 알고리즘을 배워 봅시다.||0/6|
+|43|[동적 계획법 4](https://www.acmicpc.net/step/47)|동적 계획법의 세계는 끝이 없습니다.||0/8|
+|44|[컨벡스 헐](https://www.acmicpc.net/step/37)|모든 점을 포함하는 가장 작은 볼록 다각형을 만들어 봅시다.||0/5|
+|45|[이분 매칭](https://www.acmicpc.net/step/38)|||0/6|
