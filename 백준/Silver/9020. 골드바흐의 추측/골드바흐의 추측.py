@@ -42,7 +42,6 @@ for t in test:
 # 대량으로 같은 value의 딕셔너리를 추가하는 ✅dict.fromkeys(리스트, 입력할 값)✅을 배웠다. 
 # 입력할 값을 생략하고 리스트만 인자로 넣으면 value는 모두 None으로 동일하게 생성된다.
 
-
 prime = dict.fromkeys(range(2,10000+1), True)
 
 for i in range(2, 10000+1):
