@@ -34,7 +34,7 @@
 |14|[기하 1](https://www.acmicpc.net/step/50)|다양한 기하문제를 연습해 봅시다.|✔🆗|7/7|
 |15|[정수론 및 조합론](https://www.acmicpc.net/step/18)|정수론과 조합론을 배워봅시다.|✔🆗|12/12|
 |16|[백트래킹](https://www.acmicpc.net/step/34)|모든 경우를 탐색하는 백트래킹 알고리즘을 배워봅시다.||0/8|
-|17|[동적 계획법 1](https://www.acmicpc.net/step/16)|기초적인 동적 계획법 문제들을 풀어봅시다.||0/16|
+|17|[동적 계획법 1](https://www.acmicpc.net/step/16)|기초적인 동적 계획법 문제들을 풀어봅시다.|✔⏸|1/16|
 |18|[누적 합](https://www.acmicpc.net/step/48)|부분구간 안에 있는 수들의 합을 빠르게 구해 봅시다.||0/6|
 |19|[그리디 알고리즘](https://www.acmicpc.net/step/33)|특정 상황에서 성립하는 그리디 알고리즘을 배워 봅시다.||0/5|
 |20|[스택](https://www.acmicpc.net/step/11)|스택을 구현하고 사용해 봅시다.|✔🆗|5/5|
