@@ -1,3 +1,7 @@
+# 첫 번째 답
+# 메모리: 31256 KB, 시간: 40 ms
+# 리스트에서 IndexError가 나면 ✔try/except✔을 쓰는 것이 효과적!👍
+
 import sys
 words = sys.stdin.readlines()
 f = list(words[0].strip())	# first
