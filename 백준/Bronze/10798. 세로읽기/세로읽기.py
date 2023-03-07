@@ -8,7 +8,7 @@ for word in words[1:]:
 	for w in word:
 		try:
 			f[i] += w
-		except IndexError:
+		except:
 			f.append(w)
 		i += 1
 		
