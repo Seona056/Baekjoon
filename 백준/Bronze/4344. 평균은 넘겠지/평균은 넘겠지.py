@@ -11,6 +11,6 @@ for i in range(n):
         if s > avg:
             count += 1
 
-    print(f'{(count/score[0]*100):.3f}%')        # 소수점 출력하기 : f'{변수명:.3f}'
+    print(f'{(count/score[0]*100):.3f}%')        
     
     
