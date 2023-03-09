@@ -1,2 +1,1 @@
-i = input
-print(i()[int(i())-1])
+i=input;print(i()[int(i())-1])
