@@ -2,6 +2,7 @@
 
 <br>
 
+- 문제풀이 📚[노션 페이지](https://lovely-sand-5da.notion.site/8dac022cc63a4fd8bead651c4b8ece42) ✔ <u>따로 공부가 필요했던 문제만</u> 정리 (깃허브 커밋된 파일과 동일 )
 - 백준 코드 점검에 유용한 온라인 컴파일러 & IDE : https://ideone.com/
 
 <br>
@@ -11,8 +12,8 @@
 <br>
 
 - 각 단계별로 **파이썬 알고리즘 인터뷰**, **파이썬 자료구조와 알고리즘 for Beginner** 책을 공부함
-- [파이썬 알고리즘 인터뷰](https://www.notion.so/48293e5152734e80b25511a1ed9be778) 👉 해당 노션페이지로 이동
-- [파이썬 자료구조와 알고리즘 for Beginner](https://www.notion.so/for-Beginner-05104ad4b9634f05a365b90d534f9b14) 👉 해당 노션페이지로 이동
+- [파이썬 알고리즘 인터뷰](https://lovely-sand-5da.notion.site/48293e5152734e80b25511a1ed9be778) 👉 해당 노션페이지로 이동
+- [파이썬 자료구조와 알고리즘 for Beginner](https://lovely-sand-5da.notion.site/for-Beginner-05104ad4b9634f05a365b90d534f9b14) 👉 해당 노션페이지로 이동
 
 <br>
 
