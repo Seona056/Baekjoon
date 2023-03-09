@@ -1,2 +1,2 @@
-s = input()
-print(s[int(input())-1])
+i = input
+print(i()[int(i())-1])
