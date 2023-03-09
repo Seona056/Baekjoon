@@ -1,1 +1,1 @@
-i=input;print(i()[int(i())-1])
+print(input()[int(input())-1])
