@@ -1,9 +1,4 @@
-marbles = open(0).readlines()
-w, h = [], []
-
-for m in marbles[1:]:
-	x, y = map(int, m.split())
-	w.append(x)
-	h.append(y)
-
+marbles = list(map(int, open(0).read().split()))
+w = marbles[1::2]
+h = marbles[2::2]
 print((max(w)-min(w))*(max(h)-min(h)))
