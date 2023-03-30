@@ -3,7 +3,7 @@ def get_m(m, first, end):
 		return end
 	
 	mid = (first+end)//2
-	left = sum([t-mid for t in trees if t>mid])
+	left = sum(t-mid for t in trees if t>mid)
 	
 	if left >= m:
 		return get_m(m, mid+1, end)
