@@ -3,9 +3,9 @@ input = sys.stdin.readline
 log = set()
 
 for i in range(int(input())):
-	n, e_l = input().split()	# name, enter_leave
+	n, _ = input().split()
 	
-	if e_l == 'enter':
+	if _ == 'enter':
 		log.add(n)
 	else:
 		log.remove(n)
