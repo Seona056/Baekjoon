@@ -1,12 +1,8 @@
 n = int(input())
-m, a = 3, 1
+m, a = 2, 2
 
 if n == 0:
 	print(4)
-elif n == 1:
-	print(9)
 else:
-	for i in range(n-1):
-		a += a
-		m += a
-	print(m**2)
+	s = [a**i for i in range(n)]
+	print((m+sum(s))**2)
