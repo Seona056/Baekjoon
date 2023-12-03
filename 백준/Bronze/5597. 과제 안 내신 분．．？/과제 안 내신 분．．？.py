@@ -1,10 +1,9 @@
-import sys
+n_list = [0]*30
 
-student = list(i for i in range(1, 31))
-for i in range(28):
-    submit = int(sys.stdin.readline().rstrip())
-    student.remove(submit)
-    
-student.sort()
-print(student[0])
-print(student[1])
+for _ in range(28):
+	n = int(input())
+	n_list[n-1] = n
+	
+for i in range(30):
+	if n_list[i] == 0:
+		print(i+1)
