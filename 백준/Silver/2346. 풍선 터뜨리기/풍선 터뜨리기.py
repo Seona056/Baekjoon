@@ -1,29 +1,22 @@
-from sys import stdin
-from collections import deque
-
-def order(n, move):
+def main():
+	count = int(input())
+	balloons = [(i+1, delta) for i, delta in enumerate(map(int, input().split()))]
 	
-	result = [1]
-	balloons = deque(range(2, n+1))
-	m, move = move[0], deque(move[1:])
-	
-	for i in range(n-1):
-		if m > 0 :
-			balloons.rotate(-(m-1))
-			move.rotate(-(m-1))
-		else:
-			balloons.rotate(-m)
-			move.rotate(-m)
+	i = 0
+	while balloons:
+		index, delta = balloons.pop(i)
 		
-		m = move.popleft()
-		result.append(balloons.popleft())
+		print(index, end=' ')
+		count -= 1
 		
-	return result
-	
-	
-input = stdin.readline
+		if not count:
+			break
+		
+		if delta > 0:
+			delta -= 1
+		i += delta
+		i %= count
+		
 
-n = int(input())
-move = list(map(int, input().split()))
-
-print(' '.join(str(r) for r in order(n, move)))
+if __name__ == '__main__':
+	main()
