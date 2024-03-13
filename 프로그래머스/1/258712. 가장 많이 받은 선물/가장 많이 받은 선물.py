@@ -30,7 +30,6 @@ def solution(friends, gifts):
                         if friends[f1] > friends[f2]:
                             a += 1
                 else:
-                    # print(f1, f2)
                     a += 1
             # 선물 기록이 없다면,
             else:
