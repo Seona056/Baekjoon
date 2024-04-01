@@ -1,12 +1,10 @@
 from collections import Counter
 
-alpha = list(map(str, input().upper()))
-count = Counter(alpha).most_common()
+s = input().upper()
+cnt = Counter(s).most_common(2)
 
-if len(alpha) == 1:
-    print(alpha[0])
-else:     
-    if count[0][1] == count[1][1]:
-        print('?')
-    else:
-        print(count[0][0])
+if len(cnt) == 1:
+	print(s[0])
+else:
+	[(a, b), (c, d)] = cnt
+	print('?' if b==d else a)
